@@ -1,16 +1,16 @@
 # Python Virtual Environment Commands
 
 ### Create new environment in current folder
-python3 -m venv venv
+<code>python3 -m venv venv</code>
 
 ### Activate virtual environment
-source venv/bin/activate
+<code>source venv/bin/activate</code>
 
 ### Deactivate [...]
-deactivate
+<code>deactivate</code>
 
 ### Export python package installation file
-pip3 freeze > requirements.txt
+<code>pip3 freeze > requirements.txt</code>
 
 ### Install requirements.txt packages
-pip3 install -r requirements.txt
+<code>pip3 install -r requirements.txt</code>
